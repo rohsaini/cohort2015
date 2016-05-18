@@ -1,0 +1,11 @@
+Statement:
+Distributed Computing using multicast
+
+Objective:
+To divide a task across multiple processes/processors on different nodes/same node and then collate the results.
+
+Execution:
+Phase 1 – Simple server and client program using IPC/Sockets which displays messages sent from each client periodically. Clients join a group on server and display of messages would be per group. [Data is sent from client only at this stage].
+Phase 2 – Extend phase 1 to execute task scheduled on the server on the client nodes. A parallel program (eg:- max of given large set of numbers), will be executed on server and server will distribute the task into smaller subsets and send it across to clients for execution and then server will collate the results and display the output.
+Phase 3 – Extend the problem with Multiprogramming and scalability.
+ 
